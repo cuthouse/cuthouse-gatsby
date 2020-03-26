@@ -42,3 +42,12 @@ collections:
       - { label: "スタッフ名", name: "staffName", widget: "string" }
       - { label: "スタッフ写真", name: "staffPhoto", widget: "image" }
       - { label: "スタッフコメント", name: "staffComment", widget: "text"}
+
+  # スタイリスト写真
+  - name: "stylist"
+    label: "Stylist"
+    folder: "src/stylists/"
+    felids:
+      - { label: "スタイリスト写真", name: "StylistPhoto", widget: "image" }
+      - { label: "スタイル名", name: "StyleName", widget: "string" }
+      - { label: "分類", name: "StyleClass", widget: "string" }
