@@ -13,6 +13,7 @@ public_folder: /img
 
 # 日本語化
 locale: ja
+
 # 下書き追加
 publish_mode: editorial_workflow
 
@@ -46,8 +47,10 @@ collections:
   # スタイリスト写真
   - name: "stylist"
     label: "Stylist"
-    folder: "src/page/stylist"
+    folder: "src/pages/stylists"
+    create: true
     fields:
       - { label: "スタイリスト写真", name: "StylistPhoto", widget: "image" }
       - { label: "スタイル名", name: "StyleName", widget: "string" }
       - { label: "分類", name: "StyleClass", widget: "string" }
+
