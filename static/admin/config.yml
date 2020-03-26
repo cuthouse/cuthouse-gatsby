@@ -47,7 +47,7 @@ collections:
   - name: "stylist"
     label: "Stylist"
     folder: "src/page/stylist"
-    felids:
+    fields:
       - { label: "スタイリスト写真", name: "StylistPhoto", widget: "image" }
       - { label: "スタイル名", name: "StyleName", widget: "string" }
       - { label: "分類", name: "StyleClass", widget: "string" }
